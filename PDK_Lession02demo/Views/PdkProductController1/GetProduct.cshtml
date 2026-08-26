@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "GetProduct";
+}
+
+<h1>GetProduct</h1>
+
+<h2>Dữ liệu Lấy từ ViewData</h2>
+
+@{
+    var productVD = ViewData["productVD"] as PDK_Lession02demo.Models.PdkProduct;
+}
+
+<div class="alert alert-danger">
+    <p>Mã: @productVD.ProductId</p>
+    <p>Tên: @productVD.ProductName</p>
+    <p>Năm: @productVD.YearRelease</p>
+    <p>Giá: @productVD.Price</p>
+</div>
+<hr/>
+<h2> Dữ Liệu Lấy từ ViewBag</h2>
+<div class="alert alert-info">
+    <p>Mã: @ViewBag.ProductVB.ProductId</p>
+    <p>Tên: @ViewBag.ProductVB.ProductName</p>
+    <p>Năm: @ViewBag.ProductVB.YearRelease</p>
+    <p>Giá: @ViewBag.ProductVB.Price</p>
+</div>

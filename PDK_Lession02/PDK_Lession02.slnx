@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../PDK_Lession02demo/PDK_Lession02demo.csproj" />
+  <Project Path="PDK_Lession02.csproj" />
+</Solution>
