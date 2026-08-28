@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Danh Sách Sản Phẩm";
+}
+@{
+    var products = ViewData["products"] as List<PdkLession03.Models.PdkProduct>;
+    int stt = 0;
+}
+
+<div class="card">
+    <div class="card-header">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Year</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (PdkProduct item in products)
+                {
+                    stt++;
+                    <tr>
+                        <td>@stt</td>
+                        <td>@item.PdkProductId</td>
+                        <td>@item.PdkProductName</td>
+                        <td>@item.PdkYearRelease</td>
+                        <td>@item.PdkPrice</td>
+                        <td>
+                            <a href="#">Xem</a>
+                            <a href="#">Sửa</a>
+                            <a href="#">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <th colspan="6"> Tổng số sản phẩm: @products.Count</th>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+
