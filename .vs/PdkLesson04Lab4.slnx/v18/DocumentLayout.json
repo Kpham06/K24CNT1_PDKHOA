@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|c:\\users\\truong nhan\\downloads\\pdklesson04lab4\\pdklesson04lab4\\controllers\\pdkaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|solutionrelative:pdklesson04lab4\\controllers\\pdkaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|c:\\users\\truong nhan\\downloads\\pdklesson04lab4\\pdklesson04lab4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|solutionrelative:pdklesson04lab4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|c:\\users\\truong nhan\\downloads\\pdklesson04lab4\\pdklesson04lab4\\views\\pdkaccount\\pdkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|solutionrelative:pdklesson04lab4\\views\\pdkaccount\\pdkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|c:\\users\\truong nhan\\downloads\\pdklesson04lab4\\pdklesson04lab4\\views\\pdkaccount\\pdkprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|solutionrelative:pdklesson04lab4\\views\\pdkaccount\\pdkprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|c:\\users\\truong nhan\\downloads\\pdklesson04lab4\\pdklesson04lab4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|solutionrelative:pdklesson04lab4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|c:\\users\\truong nhan\\downloads\\pdklesson04lab4\\pdklesson04lab4\\models\\pdkaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B3E0C11-9054-A0F4-A824-6FBAB81A69ED}|PdkLesson04Lab4\\PdkLesson04Lab4.csproj|solutionrelative:pdklesson04lab4\\models\\pdkaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PdkLesson04Lab4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PdkLesson04Lab4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-01T13:10:04.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Program.cs",
+              "RelativeDocumentMoniker": "PdkLesson04Lab4\\Program.cs",
+              "ToolTip": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Program.cs",
+              "RelativeToolTip": "PdkLesson04Lab4\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvx8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T13:09:37.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PdkProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Views\\PdkAccount\\PdkProfile.cshtml",
+              "RelativeDocumentMoniker": "PdkLesson04Lab4\\Views\\PdkAccount\\PdkProfile.cshtml",
+              "ToolTip": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Views\\PdkAccount\\PdkProfile.cshtml",
+              "RelativeToolTip": "PdkLesson04Lab4\\Views\\PdkAccount\\PdkProfile.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-01T12:15:08.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PdkIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Views\\PdkAccount\\PdkIndex.cshtml",
+              "RelativeDocumentMoniker": "PdkLesson04Lab4\\Views\\PdkAccount\\PdkIndex.cshtml",
+              "ToolTip": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Views\\PdkAccount\\PdkIndex.cshtml",
+              "RelativeToolTip": "PdkLesson04Lab4\\Views\\PdkAccount\\PdkIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-01T11:15:22.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PdkAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Controllers\\PdkAccountController.cs",
+              "RelativeDocumentMoniker": "PdkLesson04Lab4\\Controllers\\PdkAccountController.cs",
+              "ToolTip": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Controllers\\PdkAccountController.cs",
+              "RelativeToolTip": "PdkLesson04Lab4\\Controllers\\PdkAccountController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T11:12:22.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PdkAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Models\\PdkAccount.cs",
+              "RelativeDocumentMoniker": "PdkLesson04Lab4\\Models\\PdkAccount.cs",
+              "ToolTip": "C:\\Users\\Truong Nhan\\Downloads\\PdkLesson04Lab4\\PdkLesson04Lab4\\Models\\PdkAccount.cs",
+              "RelativeToolTip": "PdkLesson04Lab4\\Models\\PdkAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T11:30:54.916Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
