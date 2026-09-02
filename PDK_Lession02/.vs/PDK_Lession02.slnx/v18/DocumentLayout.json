@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDK_Lession02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{754338A1-6532-857E-8496-B56E6053463A}|..\\PDK_Lession02demo\\PDK_Lession02demo.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdk_lession02demo\\views\\pdkproductcontroller1\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754338A1-6532-857E-8496-B56E6053463A}|..\\PDK_Lession02demo\\PDK_Lession02demo.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdk_lession02demo\\controllers\\pdkproductcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754338A1-6532-857E-8496-B56E6053463A}|..\\PDK_Lession02demo\\PDK_Lession02demo.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdk_lession02demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetProduct.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDK_Lession02demo\\Views\\PdkProductController1\\GetProduct.cshtml",
+              "RelativeDocumentMoniker": "..\\PDK_Lession02demo\\Views\\PdkProductController1\\GetProduct.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDK_Lession02demo\\Views\\PdkProductController1\\GetProduct.cshtml",
+              "RelativeToolTip": "..\\PDK_Lession02demo\\Views\\PdkProductController1\\GetProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T06:23:00.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PdkProductController1.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDK_Lession02demo\\Controllers\\PdkProductController1.cs",
+              "RelativeDocumentMoniker": "..\\PDK_Lession02demo\\Controllers\\PdkProductController1.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDK_Lession02demo\\Controllers\\PdkProductController1.cs",
+              "RelativeToolTip": "..\\PDK_Lession02demo\\Controllers\\PdkProductController1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:20:33.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDK_Lession02demo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\PDK_Lession02demo\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDK_Lession02demo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\PDK_Lession02demo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:20:31.172Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

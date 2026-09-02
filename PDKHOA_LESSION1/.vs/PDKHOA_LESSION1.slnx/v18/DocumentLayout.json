@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\views\\product\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848605CC-88B3-164F-0819-DB0FCB780937}|..\\PDKHOA_LESSION_MVC\\PDKHOA_LESSION_MVC.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession_mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38637AB-EC27-DF45-BDE5-DCD3FC910C55}|PDKHOA_LESSION1.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdkhoa_lession1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38637AB-EC27-DF45-BDE5-DCD3FC910C55}|PDKHOA_LESSION1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:38:42.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Models\\Product.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Models\\Product.cs",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Models\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:38:56.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T19:43:14.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Product\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Views\\Product\\Index.cshtml.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Product\\Index.cshtml.cs",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Views\\Product\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:58:23.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T19:58:26.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T19:44:28.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T19:58:14.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:42:03.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:39:37.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAiwHcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T19:41:28.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T19:58:27.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "..\\PDKHOA_LESSION_MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION_MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "..\\PDKHOA_LESSION_MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-20T19:57:16.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PDKHOA_LESSION1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:06:49.926Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

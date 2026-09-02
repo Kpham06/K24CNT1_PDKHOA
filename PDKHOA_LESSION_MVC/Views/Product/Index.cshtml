@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+}
+
+<h3 class="my-4 text-secondary fw-normal">Quản lý sản phẩm</h3>
+
+<div class="table-responsive">
+    <table class="table align-middle" style="border-top: 1px solid #dee2e6;">
+        <thead>
+            <tr class="text-secondary" style="font-size: 14px;">
+                <th class="fw-bold border-bottom">ID</th>
+                <th class="fw-bold border-bottom">Name</th>
+                <th class="fw-bold border-bottom">Price</th>
+                <th class="fw-bold border-bottom">Created At</th>
+                <th class="fw-bold border-bottom">Image</th>
+                <th class="fw-bold border-bottom">Actions</th>
+            </tr>
+        </thead>
+        <tbody style="font-size: 14px;">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="py-3">@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price.ToString("N0") d</td>
+                    <td>@item.CreatedAt.ToString("dd-MM-yyyy")</td>
+                    <td>
+                        <img src="@item.Image" alt="@item.Name" style="width: 45px; height: 45px; object-fit: contain;" />
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-sm text-white px-3" style="background-color: #5cb85c; border-radius: 3px; font-size: 13px;">View</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
