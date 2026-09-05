@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../BTVN_PdkLessonMvcLab05/BTVN_PdkLessonMvcLab05.csproj" />
+  <Project Path="PdkLesson05Views.csproj" />
+</Solution>
