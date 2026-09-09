@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTVN_PdkLessonMvcLab05")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+671248e8d545bf15546f6032b568111672e73bac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c12a0955477d13afe3fd067ef5fcec1ed0619421")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTVN_PdkLessonMvcLab05")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTVN_PdkLessonMvcLab05")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
