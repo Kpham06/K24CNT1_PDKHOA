@@ -1,0 +1,47 @@
+﻿@model PdkLesson07Models.Models.DataModels.PdkMember
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="card p-3">
+<h1>Thêm Mới Thành Viên</h1>
+
+<h4>PdkMember</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" asp-controller="PdkMember">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PdkMemberId" class="control-label"></label>
+                <input asp-for="PdkMemberId" class="form-control" />
+                <span asp-validation-for="PdkMemberId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PdkUserName" class="control-label"></label>
+                <input asp-for="PdkUserName" class="form-control" />
+                <span asp-validation-for="PdkUserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PdkPassword" class="control-label"></label>
+                <input asp-for="PdkPassword" class="form-control" />
+                <span asp-validation-for="PdkPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PdkFullName" class="control-label"></label>
+                <input asp-for="PdkFullName" class="form-control" />
+                <span asp-validation-for="PdkFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PdkEmail" class="control-label"></label>
+                <input asp-for="PdkEmail" class="form-control" />
+                <span asp-validation-for="PdkEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group my-2 ">
+                <input type="submit" value="Ghi lại" class="btn btn-primary" />
+                    <a asp-action="Index">Trở lại danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
