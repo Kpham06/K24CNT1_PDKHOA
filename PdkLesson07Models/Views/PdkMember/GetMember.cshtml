@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Thông tin member";
+    var member = Model as PdkLesson07Models.Models.DataModels.PdkMember;
+}
+
+<div class="alert alert-info">
+    <h1>@ViewData["Title"]</h1>
+    @* <p>Member id: @ViewBag.Member.PdkMemberId</p>
+    <p>UserName: @ViewBag.Member.PdkUserName</p>
+    <p>UserName: @ViewBag.Member.PdkPassword</p>
+    <p>UserName: @ViewBag.Member.PdkFullName</p>
+    <p>UserName: @ViewBag.Member.PdkEmail</p> *@
+
+    <p>Memberid: @member.PdkMemberId</p>
+    <p>UserName: @member.PdkUserName</p>
+    <p>UserName: @member.PdkPassword</p>
+    <p>UserName: @member.PdkFullName</p>
+    <p>UserName: @member.PdkEmail</p>
+</div>

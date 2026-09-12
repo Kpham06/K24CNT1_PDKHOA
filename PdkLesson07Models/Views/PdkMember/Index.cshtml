@@ -1,0 +1,60 @@
+﻿@model IEnumerable<PdkLesson07Models.Models.DataModels.PdkMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+<div class="card p-3">
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class=" btn btn-primary my-1">Thêm Mới</a>
+</p>
+<table class="table table-bordered table-striped>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PdkMemberId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PdkUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PdkPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PdkFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PdkEmail)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PdkMemberId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PdkUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PdkPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PdkFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PdkEmail)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
