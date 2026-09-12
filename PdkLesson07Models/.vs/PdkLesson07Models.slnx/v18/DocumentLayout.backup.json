@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A153045A-3F05-4595-8E01-CFA3479F11F7}|PdkLesson07Models.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdklesson07models\\controllers\\pdkmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A153045A-3F05-4595-8E01-CFA3479F11F7}|PdkLesson07Models.csproj|solutionrelative:controllers\\pdkmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\PdkMember\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A153045A-3F05-4595-8E01-CFA3479F11F7}|PdkLesson07Models.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdklesson07models\\views\\pdkmember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A153045A-3F05-4595-8E01-CFA3479F11F7}|PdkLesson07Models.csproj|solutionrelative:views\\pdkmember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A153045A-3F05-4595-8E01-CFA3479F11F7}|PdkLesson07Models.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdklesson07models\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A153045A-3F05-4595-8E01-CFA3479F11F7}|PdkLesson07Models.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\GetMember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\PdkMember\\GetMember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\GetMembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\PdkMember\\GetMembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A153045A-3F05-4595-8E01-CFA3479F11F7}|PdkLesson07Models.csproj|d:\\cntt\\.net\\k24cnt1_pdkhoa\\pdklesson07models\\models\\datamodels\\pdkmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A153045A-3F05-4595-8E01-CFA3479F11F7}|PdkLesson07Models.csproj|solutionrelative:models\\datamodels\\pdkmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PdkMember\\Create.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\Create.cshtml",
+              "RelativeToolTip": "Views\\PdkMember\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-12T22:12:29.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PdkMember\\Index.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\Index.cshtml",
+              "RelativeToolTip": "Views\\PdkMember\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-12T22:03:44.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-12T21:51:47.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetMembers.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\GetMembers.cshtml",
+              "RelativeDocumentMoniker": "Views\\PdkMember\\GetMembers.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\GetMembers.cshtml",
+              "RelativeToolTip": "Views\\PdkMember\\GetMembers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-12T21:03:47.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetMember.cshtml",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\GetMember.cshtml",
+              "RelativeDocumentMoniker": "Views\\PdkMember\\GetMember.cshtml",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Views\\PdkMember\\GetMember.cshtml",
+              "RelativeToolTip": "Views\\PdkMember\\GetMember.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-12T20:53:26.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PdkMemberController.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Controllers\\PdkMemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PdkMemberController.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Controllers\\PdkMemberController.cs",
+              "RelativeToolTip": "Controllers\\PdkMemberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T20:51:22.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PdkMember.cs",
+              "DocumentMoniker": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Models\\DataModels\\PdkMember.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\PdkMember.cs",
+              "ToolTip": "D:\\CNTT\\.NET\\K24CNT1_PDKHOA\\PdkLesson07Models\\Models\\DataModels\\PdkMember.cs",
+              "RelativeToolTip": "Models\\DataModels\\PdkMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T20:49:48.54Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
