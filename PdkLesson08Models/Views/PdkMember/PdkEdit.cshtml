@@ -1,0 +1,53 @@
+@model PdkLesson08Models.Models.PdkMember
+
+@{
+    ViewData["Title"] = "Sửa thông tin thành viên";
+}
+<form asp-action="PdkEdit" method="post">
+    <div class="card p-3">
+        <div class="card-header">
+            <h1>@ViewData["Title"]</h1>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="PdkMemberId" class="control-label"></label>
+                        <input asp-for="PdkMemberId" class="form-control" readonly />
+                        <span asp-validation-for="PdkMemberId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PdkUserName" class="control-label"></label>
+                        <input asp-for="PdkUserName" class="form-control" />
+                        <span asp-validation-for="PdkUserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PdkPassword" class="control-label"></label>
+                        <input asp-for="PdkPassword" class="form-control" type="password" />
+                        <span asp-validation-for="PdkPassword" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PdkFullName" class="control-label"></label>
+                        <input asp-for="PdkFullName" class="form-control" />
+                        <span asp-validation-for="PdkFullName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PdkEmail" class="control-label"></label>
+                        <input asp-for="PdkEmail" class="form-control" />
+                        <span asp-validation-for="PdkEmail" class="text-danger"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <div class="form-group">
+                <input type="submit" value="Cập nhật" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+            </div>
+        </div>
+    </div>
+</form>

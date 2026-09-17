@@ -1,0 +1,64 @@
+﻿@model IEnumerable<PdkLesson08Models.Models.PdkMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<div class="card p-3">
+    <div class="card-header">
+        <h1>@ViewData["Title"]</h1>
+        <a asp-action="PdkCreate">Thêm  mới</a>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PdkMemberId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PdkUserName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PdkPassword)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PdkFullName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PdkEmail)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PdkMemberId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PdkUserName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PdkPassword)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PdkFullName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PdkEmail)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Sửa", "PdkEdit", new { id = item.PdkMemberId }) |
+                            @Html.ActionLink("Xem chi tiết", "PdkDetails", new { id = item.PdkMemberId }) |
+                            @Html.ActionLink("Xóa", "PdkDelete", new { id = item.PdkMemberId })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

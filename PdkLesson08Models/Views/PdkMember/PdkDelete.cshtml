@@ -1,0 +1,52 @@
+@model PdkLesson08Models.Models.PdkMember
+
+@{
+    ViewData["Title"] = "PdkDelete";
+}
+
+<h1>PdkDelete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PdkMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkMemberId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PdkMemberId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkUserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PdkUserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkPassword)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PdkPassword)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkFullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PdkFullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PdkEmail)
+        </dd>
+    </dl>
+
+    <form asp-action="PdkDelete">
+        <input name="id" value="@Model.PdkMemberId" type="hidden" />
+
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
