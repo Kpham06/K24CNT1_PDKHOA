@@ -1,0 +1,39 @@
+﻿@model PdkLab08_Lession08.Models.PdkProduct
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h2>@ViewData["Title"]</h2>
+    </div>
+    <div class="card-body">
+        <dl class="row fs-6">
+            <dt class="col-sm-3 fw-bold">Mã sản phẩm:</dt>
+            <dd class="col-sm-9">@Model.Id</dd>
+
+            <dt class="col-sm-3 fw-bold">Tên sản phẩm:</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+
+            <dt class="col-sm-3 fw-bold">Danh mục:</dt>
+            <dd class="col-sm-9">@ViewBag.CategoryName</dd>
+
+            <dt class="col-sm-3 fw-bold">Giá niêm yết:</dt>
+            <dd class="col-sm-9 text-danger fw-bold">@Model.Price.ToString("N0") đ</dd>
+
+            <dt class="col-sm-3 fw-bold">Giá khuyến mãi:</dt>
+            <dd class="col-sm-9 text-danger">@Model.SalePrice.ToString("N0") đ</dd>
+
+            <dt class="col-sm-3 fw-bold">Ngày tạo:</dt>
+            <dd class="col-sm-9">@Model.CreatedDate.ToString("dd/MM/yyyy HH:mm")</dd>
+
+            <dt class="col-sm-3 fw-bold">Mô tả:</dt>
+            <dd class="col-sm-9">@Model.Description</dd>
+        </dl>
+    </div>
+    <div class="card-footer p-3">
+        <a asp-action="PdkEdit" asp-route-id="@Model.Id" class="btn btn-warning">Sửa</a>
+        <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại</a>
+    </div>
+</div>

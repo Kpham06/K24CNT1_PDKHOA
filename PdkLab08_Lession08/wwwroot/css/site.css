@@ -1,0 +1,223 @@
+/* ==========================================================================
+   TỰ CHỈNH GIAO DIỆN CHỦ ĐỀ MÀU ĐỎ (RED / CRIMSON THEME) & ANIMATIONS
+   ========================================================================== */
+
+:root {
+    --primary-red: #dc3545;
+    --primary-red-hover: #bb2d3b;
+    --primary-red-dark: #842029;
+    --primary-red-light: #f8d7da;
+    --primary-red-gradient: linear-gradient(135deg, #e63946 0%, #b71c1c 100%);
+    --bg-soft: #fff5f5;
+    --shadow-soft: 0 4px 15px rgba(220, 53, 69, 0.15);
+    --shadow-hover: 0 8px 25px rgba(220, 53, 69, 0.25);
+    --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* 1. Tổng thể & Font */
+body {
+    background-color: #fcfcfc;
+    color: #2b2b2b;
+    transition: var(--transition-smooth);
+}
+
+/* Title / Tiêu đề */
+h1, h2, h3, h4, h5, h6 {
+    color: #a71d2a;
+    font-weight: 700;
+    transition: var(--transition-smooth);
+}
+
+/* 2. Thẻ Card chứa nội dung */
+.card {
+    border: 1px solid rgba(220, 53, 69, 0.2) !important;
+    border-radius: 12px !important;
+    box-shadow: var(--shadow-soft);
+    background: #ffffff;
+    transition: var(--transition-smooth);
+    overflow: hidden;
+}
+
+    .card:hover {
+        box-shadow: var(--shadow-hover);
+        transform: translateY(-2px);
+    }
+
+.card-header {
+    background: var(--primary-red-gradient) !important;
+    color: #ffffff !important;
+    border-bottom: none !important;
+    padding: 1.25rem 1.5rem !important;
+}
+
+    .card-header h1, .card-header h2, .card-header h3 {
+        color: #ffffff !important;
+        margin: 0;
+    }
+
+/* 3. Bảng (Table) */
+.table {
+    border-color: rgba(220, 53, 69, 0.15) !important;
+    vertical-align: middle;
+}
+
+    .table-dark, .table thead {
+        background: var(--primary-red-gradient) !important;
+        color: #ffffff !important;
+        border: none !important;
+    }
+
+        .table thead th {
+            border: none !important;
+            padding: 1rem !important;
+            font-weight: 600;
+        }
+
+    .table tbody tr {
+        transition: var(--transition-smooth);
+    }
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(220, 53, 69, 0.02);
+}
+
+.table-hover tbody tr:hover, .table tbody tr:hover {
+    background-color: rgba(220, 53, 69, 0.06) !important;
+    transform: scale(1.002);
+}
+
+/* 4. Nút bấm (Buttons) */
+.btn {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 0.5rem 1.25rem !important;
+    transition: var(--transition-smooth) !important;
+    position: relative;
+    overflow: hidden;
+}
+
+    .btn:active {
+        transform: scale(0.96) !important;
+    }
+
+/* Đồng bộ nút bấm chính sang tông Đỏ */
+.btn-primary, .btn-success, .btn-danger {
+    background: var(--primary-red-gradient) !important;
+    border: none !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 10px rgba(220, 53, 69, 0.3);
+}
+
+    .btn-primary:hover, .btn-success:hover, .btn-danger:hover {
+        background: linear-gradient(135deg, #c5221f 0%, #8e0000 100%) !important;
+        box-shadow: 0 6px 18px rgba(220, 53, 69, 0.45);
+        transform: translateY(-2px);
+    }
+
+/* Nút Sửa / Cảnh báo (Warning) */
+.btn-warning {
+    background-color: #ff8533 !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+    .btn-warning:hover {
+        background-color: #e65c00 !important;
+        color: #ffffff !important;
+        transform: translateY(-2px);
+    }
+
+/* Nút Chi tiết (Info) */
+.btn-info {
+    background-color: #e63946 !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+    .btn-info:hover {
+        background-color: #c5221f !important;
+        color: #ffffff !important;
+        transform: translateY(-2px);
+    }
+
+/* Nút Trở về / Thứ cấp (Secondary) */
+.btn-secondary {
+    background-color: #6c757d !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+    .btn-secondary:hover {
+        background-color: #495057 !important;
+        transform: translateY(-2px);
+    }
+
+/* Nút nhỏ trong bảng */
+.btn-sm {
+    padding: 0.3rem 0.75rem !important;
+    font-size: 0.875rem !important;
+}
+
+/* 5. Input & Form Control */
+.form-control, .form-select {
+    border: 1.5px solid #e2e8f0 !important;
+    border-radius: 8px !important;
+    padding: 0.6rem 1rem !important;
+    transition: var(--transition-smooth) !important;
+}
+
+    .form-control:focus, .form-select:focus {
+        border-color: var(--primary-red) !important;
+        box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+        outline: none !important;
+    }
+
+.form-check-input:checked {
+    background-color: var(--primary-red) !important;
+    border-color: var(--primary-red) !important;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.2);
+}
+
+.form-check-input {
+    transition: var(--transition-smooth);
+    cursor: pointer;
+}
+
+/* 6. Badges (Nhãn trạng thái) */
+.badge.bg-success {
+    background: var(--primary-red-gradient) !important;
+    color: #fff !important;
+    padding: 0.5em 0.8em;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(220, 53, 69, 0.3);
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important;
+    padding: 0.5em 0.8em;
+    border-radius: 6px;
+}
+
+/* 7. Hiệu ứng Fade-In xuất hiện mượt cho trang */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card, .table, form {
+    animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* 8. Đường phân cách HR */
+hr {
+    border-top: 2px solid rgba(220, 53, 69, 0.2) !important;
+    opacity: 1 !important;
+    margin: 1.25rem 0 !important;
+}

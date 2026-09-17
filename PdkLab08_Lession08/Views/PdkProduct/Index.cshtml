@@ -1,0 +1,55 @@
+﻿@model IEnumerable<PdkLab08_Lession08.Models.PdkProduct>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    var categories = ViewBag.Categories as List<PdkLab08_Lession08.Models.Category>;
+}
+
+<div class="card p-3">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1>@ViewData["Title"]</h1>
+        <a asp-action="PdkCreate" class="btn btn-danger">Thêm mới sản phẩm</a>
+    </div>
+
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá gốc</th>
+                <th>Giá khuyến mãi</th>
+                <th>Danh mục</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                var catName = categories?.FirstOrDefault(c => c.Id == item.CategoryId)?.Name;
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price.ToString("N0") đ</td>
+                    <td>@item.SalePrice.ToString("N0") đ</td>
+                    <td>@catName</td>
+                    <td>
+                        @if (item.Status)
+                        {
+                            <span class="badge bg-success">Hiển thị</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Ẩn</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="PdkEdit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Sửa</a>
+                        <a asp-action="PdkDetails" asp-route-id="@item.Id" class="btn btn-info btn-sm">Chi tiết</a>
+                        <a asp-action="PdkDelete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
