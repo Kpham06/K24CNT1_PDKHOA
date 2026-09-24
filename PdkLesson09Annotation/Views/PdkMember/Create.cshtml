@@ -1,0 +1,71 @@
+﻿@model PdkLesson09Annotation.Models.DataViewModels.PdkMemberRegister
+
+@{
+    ViewData["Title"] = "Thêm mới thành viên";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>PdkMemberRegister</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PdkMemberId" class="control-label"></label>
+                <input asp-for="PdkMemberId" class="form-control" />
+                <span asp-validation-for="PdkMemberId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PdkUserName" class="control-label"></label>
+                <input asp-for="PdkUserName" class="form-control" />
+                <span asp-validation-for="PdkUserName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PdkPassword" class="control-label"></label>
+                <input asp-for="PdkPassword" class="form-control" type="password" />
+                <span asp-validation-for="PdkPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PdkEmail" class="control-label"></label>
+                <input asp-for="PdkEmail" class="form-control" />
+                <span asp-validation-for="PdkEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PdkPhoneNumber" class="control-label"></label>
+                <input asp-for="PdkPhoneNumber" class="form-control" />
+                <span asp-validation-for="PdkPhoneNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PdkFullName" class="control-label"></label>
+                <input asp-for="PdkFullName" class="form-control" />
+                <span asp-validation-for="PdkFullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PdkBirthday" class="control-label"></label>
+                <input asp-for="PdkBirthday" class="form-control" type="date" />
+                <span asp-validation-for="PdkBirthday" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
