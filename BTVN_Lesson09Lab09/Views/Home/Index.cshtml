@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Trang Chủ";
+}
+
+<div class="container py-4">
+    <!-- Hero Banner -->
+    <div class="p-5 mb-4 bg-light rounded-3 shadow-sm border text-center">
+        <h1 class="display-4 fw-bold text-primary mb-3">Hệ Thống Quản Lý Sản Phẩm</h1>
+        <p class="col-md-10 fs-5 mx-auto text-muted">
+            Dự án ASP.NET Core MVC - Bài tập thực hành Data Annotation & Validation.
+        </p>
+        <div class="d-flex justify-content-center gap-3 mt-4">
+            <a asp-controller="PdkProduct" asp-action="Index" class="btn btn-primary btn-lg px-4">
+                Quản lý Sản phẩm
+            </a>
+            <a asp-controller="Home" asp-action="Privacy" class="btn btn-outline-secondary btn-lg px-4">
+                Xem Chính sách
+            </a>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row g-4 py-3 text-center">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body">
+                    <h5 class="card-title text-primary fw-bold">Danh Mục & Sản Phẩm</h5>
+                    <p class="card-text text-muted">Quản lý danh sách sản phẩm, giá bán, giá khuyến mãi và danh mục đa dạng.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body">
+                    <h5 class="card-title text-success fw-bold">Kiểm Duyệt Dữ Liệu</h5>
+                    <p class="card-text text-muted">Tự động kiểm tra giá khuyến mãi hợp lệ và lọc bỏ các từ ngữ nhạy cảm trong mô tả.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body">
+                    <h5 class="card-title text-info fw-bold">Upload Hình Ảnh</h5>
+                    <p class="card-text text-muted">Hỗ trợ tải ảnh sản phẩm trực tiếp lưu vào thư mục hệ thống <code>wwwroot/products</code>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Developer Info -->
+    <div class="mt-4 p-3 bg-white text-center border rounded shadow-sm">
+        <p class="mb-0 text-secondary">
+            Phát triển bởi: <strong>Phạm Đăng Khoa</strong> | Email: <a href="mailto:Khoapham206.vn@gmail.com">Khoapham206.vn@gmail.com</a> | Hotline: <a href="tel:0396066230">0396066230</a>
+        </p>
+    </div>
+</div>
