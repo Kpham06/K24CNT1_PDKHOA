@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Thông tin hệ thống";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-9">
+            <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+                <div class="card-header bg-primary text-white p-4">
+                    <h1 class="fw-bold mb-2">THÔNG TIN HỆ THỐNG</h1>
+                    <p class="mb-0">
+                        Hệ thống quản lý sinh viên
+                    </p>
+                </div>
+
+                <div class="card-body p-4 p-md-5">
+                    <h3 class="fw-bold text-primary mb-3">
+                        Thông tin sinh viên
+                    </h3>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <strong>Họ và tên</strong>
+                            <p class="text-secondary mb-0">
+                                Phạm Đăng Khoa
+                            </p>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <strong>Mã sinh viên</strong>
+                            <p class="text-secondary mb-0">
+                                2410900044
+                            </p>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <strong>Lớp</strong>
+                            <p class="text-secondary mb-0">
+                                K24CNT1
+                            </p>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <strong>Môn</strong>
+                            <p class="text-secondary mb-0">
+                                ASP.NET Core MVC
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <a asp-controller="Home"
+                           asp-action="Index"
+                           class="btn btn-primary px-4">
+                            Quay về trang chủ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

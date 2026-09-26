@@ -1,0 +1,51 @@
+@model Pdk2410900044_exam.Models.PdkStudent
+
+@{
+    ViewData["Title"] = "Xóa sinh viên";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-danger text-white">
+            <h3 class="mb-0">XÓA SINH VIÊN</h3>
+        </div>
+
+        <div class="card-body">
+            <h5>Bạn có chắc chắn muốn xóa sinh viên này?</h5>
+
+            <table class="table table-bordered mt-3">
+                <tr>
+                    <th>Họ và tên</th>
+                    <td>@Model.PdkName</td>
+                </tr>
+
+                <tr>
+                    <th>Ngày sinh</th>
+                    <td>@Model.PdkBirthDay.ToString("dd/MM/yyyy")</td>
+                </tr>
+
+                <tr>
+                    <th>Email</th>
+                    <td>@Model.PdkEmail</td>
+                </tr>
+
+                <tr>
+                    <th>Số điện thoại</th>
+                    <td>@Model.PdkPhone</td>
+                </tr>
+            </table>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+
+                <button type="submit" class="btn btn-danger">
+                    Xóa
+                </button>
+
+                <a asp-action="Index" class="btn btn-secondary">
+                    Hủy
+                </a>
+            </form>
+        </div>
+    </div>
+</div>

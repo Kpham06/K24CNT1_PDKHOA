@@ -1,0 +1,72 @@
+@model Pdk2410900044_exam.Models.PdkStudent
+
+@{
+    ViewData["Title"] = "Thêm sinh viên";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">THÊM SINH VIÊN</h3>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="PdkName" class="form-label">Họ và tên</label>
+                    <input asp-for="PdkName" class="form-control" />
+                    <span asp-validation-for="PdkName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PdkGender" class="form-label">Giới tính</label>
+                    <select asp-for="PdkGender" class="form-select">
+                        <option value="true">Nam</option>
+                        <option value="false">Nữ</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PdkBirthDay" class="form-label">Ngày sinh</label>
+                    <input asp-for="PdkBirthDay" type="date" class="form-control" />
+                    <span asp-validation-for="PdkBirthDay" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PdkEmail" class="form-label">Email</label>
+                    <input asp-for="PdkEmail" class="form-control" />
+                    <span asp-validation-for="PdkEmail" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PdkPhone" class="form-label">Số điện thoại</label>
+                    <input asp-for="PdkPhone" class="form-control" />
+                    <span asp-validation-for="PdkPhone" class="text-danger"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="PdkActive" class="form-check-input" />
+                    <label asp-for="PdkActive" class="form-check-label">
+                        Hoạt động
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Thêm
+                </button>
+
+                <a asp-action="Index" class="btn btn-secondary">
+                    Quay lại
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

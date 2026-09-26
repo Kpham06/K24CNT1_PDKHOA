@@ -1,0 +1,44 @@
+body {
+    background-color: #f5f7fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+    .table th {
+        vertical-align: middle;
+    }
+
+    .table td {
+        vertical-align: middle;
+    }
+
+.btn {
+    margin: 2px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    border-radius: 6px;
+}
+
+    .form-control:focus,
+    .form-select:focus {
+        box-shadow: none;
+    }
+
+
