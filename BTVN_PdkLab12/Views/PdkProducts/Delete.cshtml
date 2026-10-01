@@ -1,0 +1,56 @@
+﻿@model BTVN_PdkLab12.Models.PdkProduct
+
+@{
+    ViewData["Title"] = "Xóa sản phẩm";
+}
+
+<h2 class="my-3 text-danger">Xóa sản phẩm</h2>
+<h5 class="text-secondary">Bạn có chắc chắn muốn xóa sản phẩm này không?</h5>
+<hr />
+
+<div class="row">
+    <div class="col-md-4 text-center mb-3">
+        @if (!string.IsNullOrEmpty(Model.PdkImage))
+        {
+            <img src="~/Product/@Model.PdkImage" class="img-fluid rounded border" alt="@Model.PdkName" style="max-height: 250px; object-fit: cover;" />
+        }
+        else
+        {
+            <div class="p-4 bg-light border rounded text-muted">Chưa có ảnh</div>
+        }
+    </div>
+
+    <div class="col-md-8">
+        <dl class="row">
+            <dt class="col-sm-3">Tên sản phẩm</dt>
+            <dd class="col-sm-9">@Model.PdkName</dd>
+
+            <dt class="col-sm-3">Danh mục</dt>
+            <dd class="col-sm-9">@(Model.PdkCategory != null ? Model.PdkCategory.PdkName : "N/A")</dd>
+
+            <dt class="col-sm-3">Giá nhập</dt>
+            <dd class="col-sm-9">@Model.PdkPrice.ToString("N0") VNĐ</dd>
+
+            <dt class="col-sm-3">Giá bán</dt>
+            <dd class="col-sm-9">@Model.PdkSalePrice.ToString("N0") VNĐ</dd>
+
+            <dt class="col-sm-3">Trạng thái</dt>
+            <dd class="col-sm-9">
+                @if (Model.PdkStatus == 1)
+                {
+                    <span class="badge bg-success">Hiển thị</span>
+                }
+                else
+                {
+                    <span class="badge bg-secondary">Ẩn</span>
+                }
+            </dd>
+        </dl>
+
+        <form asp-action="Delete" class="mt-4">
+            <input type="hidden" asp-for="PdkId" />
+            <button type="submit" class="btn btn-danger btn-sm">Xác nhận xóa</button>
+            <a asp-action="Index" class="btn btn-secondary btn-sm">Hủy bỏ</a>
+        </form>
+    </div>
+</div>

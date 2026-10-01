@@ -1,0 +1,71 @@
+﻿@model BTVN_PdkLab12.Models.PdkProduct
+
+@{
+    ViewData["Title"] = "Chỉnh sửa sản phẩm";
+}
+
+<h2 class="my-3">Chỉnh sửa sản phẩm</h2>
+<hr />
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    <input type="hidden" asp-for="PdkId" />
+    <input type="hidden" asp-for="PdkImage" />
+    <input type="hidden" asp-for="PdkCreatedDate" />
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label asp-for="PdkName" class="form-label"></label>
+                <input asp-for="PdkName" class="form-control" />
+                <span asp-validation-for="PdkName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdkImage" class="form-label"></label><br />
+                @if (!string.IsNullOrEmpty(Model.PdkImage))
+                {
+                    <img src="~/Product/@Model.PdkImage" width="100" class="img-thumbnail mb-2" />
+                }
+                <input type="file" name="files" class="form-control" accept="image/*" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdkDescriptions" class="form-label"></label>
+                <textarea asp-for="PdkDescriptions" class="form-control" rows="4"></textarea>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label asp-for="PdkCategoryId" class="form-label"></label>
+                <select asp-for="PdkCategoryId" class="form-select" asp-items="ViewBag.PdkCategoryId"></select>
+                <span asp-validation-for="PdkCategoryId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdkPrice" class="form-label"></label>
+                <input asp-for="PdkPrice" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="PdkPrice" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdkSalePrice" class="form-label"></label>
+                <input asp-for="PdkSalePrice" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="PdkSalePrice" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdkStatus" class="form-label"></label>
+                <select asp-for="PdkStatus" class="form-select">
+                    <option value="1">Hiển thị</option>
+                    <option value="0">Ẩn</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary btn-sm">Lưu thay đổi</button>
+        <a asp-action="Index" class="btn btn-secondary btn-sm">Hủy</a>
+    </div>
+</form>

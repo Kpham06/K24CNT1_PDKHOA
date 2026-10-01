@@ -1,0 +1,61 @@
+﻿@model IEnumerable<BTVN_PdkLab12.Models.PdkProduct>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<h2 class="my-3">Danh sách sản phẩm</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success btn-sm">Thêm mới sản phẩm</a>
+</p>
+
+<table class="table table-bordered table-striped align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Hình ảnh</th>
+            <th>Giá nhập</th>
+            <th>Giá bán</th>
+            <th>Danh mục</th>
+            <th>Trạng thái</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.PdkName</td>
+                <td class="text-center">
+                    @if (!string.IsNullOrEmpty(item.PdkImage))
+                    {
+                        <img src="~/Product/@item.PdkImage" width="70" height="70" style="object-fit:cover;" class="rounded" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">Chưa có ảnh</span>
+                    }
+                </td>
+                <td>@item.PdkPrice.ToString("N0") VNĐ</td>
+                <td>@item.PdkSalePrice.ToString("N0") VNĐ</td>
+                <td>@(item.PdkCategory != null ? item.PdkCategory.PdkName : "")</td>
+                <td class="text-center">
+                    @if (item.PdkStatus == 1)
+                    {
+                        <a asp-action="ChangeStatus" asp-route-id="@item.PdkId" class="badge bg-success text-decoration-none">Hiển thị</a>
+                    }
+                    else
+                    {
+                        <a asp-action="ChangeStatus" asp-route-id="@item.PdkId" class="badge bg-secondary text-decoration-none">Ẩn</a>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PdkId" class="btn btn-warning btn-sm">Sửa</a> |
+                    <a asp-action="Details" asp-route-id="@item.PdkId" class="btn btn-info btn-sm text-white">Chi tiết</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PdkId" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

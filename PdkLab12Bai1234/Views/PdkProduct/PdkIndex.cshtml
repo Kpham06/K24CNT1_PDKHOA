@@ -1,0 +1,58 @@
+﻿@model IEnumerable<PdkLab12Bai1234.Models.PdkProduct>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3 fw-bold">Danh sách sản phẩm</h2>
+
+    <p>
+        <a asp-action="PdkCreate" class="btn btn-success">Thêm mới</a>
+    </p>
+
+    <table class="table table-bordered align-middle text-center">
+        <thead class="table-light">
+            <tr>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>SalePrice</th>
+                <th>Status</th>
+                <th>Descriptions</th>
+                <th>CreatedDate</th>
+                <th>Category</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.PdkName</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.PdkImage))
+                        {
+                            <img src="@item.PdkImage" style="width: 60px; height: 60px; object-fit: cover;" alt="@item.PdkName" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">No Image</span>
+                        }
+                    </td>
+                    <td>@item.PdkPrice.ToString("N2")</td>
+                    <td>@item.PdkSalePrice.ToString("N2")</td>
+                    <td>@item.PdkStatus</td>
+                    <td>@item.PdkDescriptions</td>
+                    <td>@item.PdkCreatedDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                    <td>@(item.PdkCategory?.PdkName ?? item.PdkCategoryId.ToString())</td>
+                    <td>
+                        <a asp-action="PdkEdit" asp-route-id="@item.PdkId" class="btn btn-primary btn-sm">Edit</a>
+                        <a asp-action="PdkDetails" asp-route-id="@item.PdkId" class="btn btn-info btn-sm text-white">Details</a>
+                        <a asp-action="PdkDelete" asp-route-id="@item.PdkId" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

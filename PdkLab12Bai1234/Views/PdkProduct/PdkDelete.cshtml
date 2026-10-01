@@ -1,0 +1,27 @@
+﻿@model PdkLab12Bai1234.Models.PdkProduct
+
+@{
+    ViewData["Title"] = "Xóa sản phẩm";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3 text-danger fw-bold">Xóa sản phẩm</h2>
+    <h5 class="mb-4">Bạn có chắc chắn muốn xóa sản phẩm này không?</h5>
+
+    <dl class="row">
+        <dt class="col-sm-3">Tên sản phẩm</dt>
+        <dd class="col-sm-9">@Model.PdkName</dd>
+
+        <dt class="col-sm-3">Giá bán</dt>
+        <dd class="col-sm-9">@Model.PdkPrice.ToString("N2")</dd>
+
+        <dt class="col-sm-3">Mô tả</dt>
+        <dd class="col-sm-9">@Model.PdkDescriptions</dd>
+    </dl>
+
+    <form asp-action="PdkDelete" method="post">
+        <input type="hidden" asp-for="PdkId" />
+        <button type="submit" class="btn btn-danger me-2">Xóa ngay</button>
+        <a asp-action="PdkIndex" class="btn btn-secondary">Hủy bỏ</a>
+    </form>
+</div>

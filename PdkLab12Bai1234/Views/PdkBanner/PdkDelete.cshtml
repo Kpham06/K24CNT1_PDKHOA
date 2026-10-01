@@ -1,0 +1,32 @@
+﻿@model PdkLab12Bai1234.Models.PdkBanner
+
+@{
+    ViewData["Title"] = "Xác Nhận Xóa Banner";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-danger shadow-sm">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0 fw-bold">Xác Nhận Xóa Banner</h4>
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="text-danger mb-3">Bạn có chắc chắn muốn xóa Banner này không?</h5>
+
+                    <div class="p-3 bg-light rounded text-start mb-3">
+                        <p><strong>Mã Banner:</strong> @Model.PdkId</p>
+                        <p><strong>Tên Banner:</strong> @Model.PdkName</p>
+                        <p><strong>Mô tả:</strong> @Model.PdkDescription</p>
+                    </div>
+
+                    <form asp-controller="PdkBanner" asp-action="PdkDelete" method="post">
+                        <input type="hidden" asp-for="PdkId" />
+                        <a asp-controller="PdkHome" asp-action="PdkIndex" class="btn btn-secondary me-2">Hủy Bỏ</a>
+                        <button type="submit" class="btn btn-danger">Xóa Vĩnh Viễn</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

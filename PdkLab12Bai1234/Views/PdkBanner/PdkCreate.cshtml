@@ -1,0 +1,50 @@
+﻿@model PdkLab12Bai1234.Models.PdkBanner
+
+@{
+    ViewData["Title"] = "Thêm Banner Mới";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0 fw-bold">Thêm Banner Mới</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="PdkBanner" asp-action="PdkCreate" method="post">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Tên Banner</label>
+                            <input asp-for="PdkName" class="form-control" required placeholder="Nhập tên banner..." />
+                            <span asp-validation-for="PdkName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Tên File Ảnh (ví dụ: banner1.jpg)</label>
+                            <input asp-for="PdkImage" class="form-control" placeholder="banner1.jpg" />
+                            <span asp-validation-for="PdkImage" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Mô Tả</label>
+                            <textarea asp-for="PdkDescription" class="form-control" rows="3" placeholder="Nhập mô tả banner..."></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Trạng Thái</label>
+                            <select asp-for="PdkStatus" class="form-select">
+                                <option value="1">Hiển Thị</option>
+                                <option value="0">Ẩn</option>
+                            </select>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-controller="PdkHome" asp-action="PdkIndex" class="btn btn-secondary">Quay lại</a>
+                            <button type="submit" class="btn btn-success">Thêm Mới</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

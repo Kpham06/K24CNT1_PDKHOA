@@ -1,0 +1,16 @@
+﻿@model IEnumerable<PdkLab12Bai1234.Models.PdkProduct>
+
+<h2>Danh sách sản phẩm</h2>
+<div class="row mt-4">
+    @foreach (var pdkItem in Model)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card text-center h-100 p-2 shadow-sm">
+                <img src="~/Product/@pdkItem.PdkImage" class="card-img-top mx-auto" style="height: 200px; object-fit: contain;" alt="@pdkItem.PdkName" />
+                <div class="card-body">
+                    <h6 class="card-title mt-2">@pdkItem.PdkName</h6>
+                </div>
+            </div>
+        </div>
+    }
+</div>

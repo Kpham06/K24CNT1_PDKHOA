@@ -1,0 +1,37 @@
+﻿@model PdkLab12Bai1234.Models.PdkProduct
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4 fw-bold">Chi tiết sản phẩm</h2>
+
+    <dl class="row">
+        <dt class="col-sm-3">Tên sản phẩm</dt>
+        <dd class="col-sm-9">@Model.PdkName</dd>
+
+        <dt class="col-sm-3">Hình ảnh</dt>
+        <dd class="col-sm-9">@Model.PdkImage</dd>
+
+        <dt class="col-sm-3">Giá bán</dt>
+        <dd class="col-sm-9">@Model.PdkPrice.ToString("N2")</dd>
+
+        <dt class="col-sm-3">Giá khuyến mãi</dt>
+        <dd class="col-sm-9">@Model.PdkSalePrice.ToString("N2")</dd>
+
+        <dt class="col-sm-3">Trạng thái</dt>
+        <dd class="col-sm-9">@Model.PdkStatus</dd>
+
+        <dt class="col-sm-3">Mô tả</dt>
+        <dd class="col-sm-9">@Model.PdkDescriptions</dd>
+
+        <dt class="col-sm-3">Ngày tạo</dt>
+        <dd class="col-sm-9">@Model.PdkCreatedDate.ToString("dd/MM/yyyy HH:mm:ss")</dd>
+    </dl>
+
+    <div>
+        <a asp-action="PdkEdit" asp-route-id="@Model.PdkId" class="btn btn-primary">Chỉnh sửa</a>
+        <a asp-action="PdkIndex" class="btn btn-secondary">Về danh sách</a>
+    </div>
+</div>

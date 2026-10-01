@@ -1,0 +1,45 @@
+@model PdkNetCoreCRUD.Models.PdkCategory
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>PdkCategory</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PdkName)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PdkStatus)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkCreatedDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PdkCreatedDate)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PdkProducts)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PdkProducts)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PdkId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
