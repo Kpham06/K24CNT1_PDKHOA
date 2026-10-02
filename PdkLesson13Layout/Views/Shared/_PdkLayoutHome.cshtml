@@ -1,0 +1,32 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/PdkLayoutHome.css" asp-append-version="true" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="navbar">
+            <ul>
+                <li><a href="/PdkProducts/Index">Danh sách sản phẩm</a></li>
+                <li><a asp-action="Search" asp-controller="PdkProducts">Tìm kiếm sản phẩm</a></li>
+                <li><a asp-action="Hots" asp-controller="PdkProducts">Sản phẩm bán chạy</a></li>
+                <li><a href="/PdkProducts/About">Giới thiệu</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            @RenderBody()
+        </div>
+
+        <div class="footer">
+            <p>
+                &copy; 10/2026 <br />
+                Copyright by @@PdkPhamKhoa <br />
+                <a asp-area="" asp-controller="Home" asp-action="Privacy" style="color:white;">Privacy</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
