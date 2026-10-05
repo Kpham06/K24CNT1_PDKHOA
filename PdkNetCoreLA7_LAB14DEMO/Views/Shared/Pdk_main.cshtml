@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB14_DEMO</title>
+    
+    <!-- Tải Bootstrap & FontAwesome CDN để hiển thị đẹp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; }
+        .top-bar { background: #111; color: #ccc; font-size: 13px; padding: 8px 0; }
+        .top-bar a { color: #ccc; text-decoration: none; margin-left: 12px; }
+        .top-bar a:hover { color: #fff; }
+        .header-main { background: #fff; padding: 20px 0; border-bottom: 1px solid #eee; }
+        .header-logo h1 { margin: 0; font-weight: bold; color: #222; }
+        .main-nav { background: #4a69bd; }
+        .main-nav .nav-link { color: #fff !important; font-weight: 600; text-transform: uppercase; padding: 12px 18px; }
+        .main-nav .nav-link:hover { background: #3c5aa6; }
+        .hero-banner { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/banner.jpg'); background-size: cover; background-position: center; color: #fff; padding: 100px 0; text-align: center; }
+        .hero-banner h3 { font-size: 2.5rem; font-weight: bold; margin: 15px 0; }
+        .card-custom { border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05); padding: 30px; text-align: center; background: #fff; border-radius: 8px; margin-bottom: 20px; }
+        .card-custom i { font-size: 40px; color: #4a69bd; margin-bottom: 15px; }
+        footer { background: #0c2461; color: #a4b0be; padding: 50px 0 20px; }
+        footer h6 { color: #fff; font-weight: bold; margin-bottom: 20px; }
+        footer a { color: #a4b0be; text-decoration: none; }
+        footer a:hover { color: #fff; }
+        .footer-bottom { background: #0a1d4e; padding: 15px 0; color: #747d8c; font-size: 14px; }
+    </style>
+    @RenderSection("Css", required: false)
+</head>
+<body>
+    <!-- THANH TRÊN CÙNG -->
+    <div class="top-bar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <i class="fas fa-phone me-1"></i> Hotline: 0396066230
+                <i class="fas fa-envelope ms-3 me-1"></i> Khoapham206.vn@gmail.com
+            </div>
+            <div>
+                <a href="#"><i class="fas fa-home"></i> Trang chủ</a>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Liên hệ</a>
+                <a href="#">Đăng nhập</a>
+                <a href="#">Đăng ký</a>
+            </div>
+        </div>
+    </div>
+
+ 
+    <div class="header-main">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+             
+                <h1><a href="/" class="text-decoration-none text-dark">KHOAPHAM.NET</a></h1>
+                <small class="text-muted">Hệ thống quản lý ASP.NET Core MVC</small>
+            </div>
+            <div class="d-flex gap-4">
+                <div><i class="fas fa-phone text-primary me-2"></i><strong>Điện thoại:</strong> 0396066230 -Khoapham</div>
+                <div><i class="far fa-clock text-primary me-2"></i><strong>Giờ làm việc:</strong> T2 - T7: 08:00 - 18:00</div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg main-nav p-0">
+        <div class="container">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="/">Trang chủ</a>
+                <a class="nav-link" href="#">Danh mục</a>
+                <a class="nav-link" href="#">Sản phẩm</a>
+                <a class="nav-link" href="#">Tin tức</a>
+                <a class="nav-link" href="#">Dịch vụ</a>
+                <a class="nav-link" href="/Admin">Trang Admin</a>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <h6>Liên hệ với chúng tôi</h6>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> Số 28A Lê Trọng Tấn, Hà Đông, Hà Nội</p>
+                    <p><i class="fas fa-phone me-2"></i> 0396066230</p>
+                    <p><i class="fas fa-envelope me-2"></i> Khoapham206.vn@gmail.com</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h6>Về chúng tôi</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Giới thiệu công ty</a></li>
+                        <li><a href="#">Đội ngũ nhân sự</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h6>Dịch vụ khách hàng</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Hỗ trợ kỹ thuật</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h6>Đăng ký nhận tin</h6>
+                    <input type="text" class="form-control mb-2 form-control-sm" placeholder="Họ và tên">
+                    <input type="email" class="form-control mb-2 form-control-sm" placeholder="Email của bạn">
+                    <button class="btn btn-primary btn-sm w-100">Gửi thông tin</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom text-center">
+        &copy; 2026 - PdkNetCoreLA7_LAB14DEMO | Bài thực hành thiết kế Layout MVC
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

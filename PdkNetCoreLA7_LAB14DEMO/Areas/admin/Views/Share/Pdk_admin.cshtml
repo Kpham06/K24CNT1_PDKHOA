@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Pdk Admin Panel</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("Css", required: false)
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Pdk Admin Panel</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Dashboard (Pdk)</a></li>
+                <li><a asp-area="Admin" asp-controller="Category" asp-action="Index">Category (Pdk)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2026 - PdkNetCoreLA7_LAB14DEMO (Admin Area - Pdk)</p>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
